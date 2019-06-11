@@ -14,9 +14,7 @@ if(mysqli_connect_errno())
    <link rel="stylesheet" href="donate.css">
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-
 </head>
-
 <body style="background-color:black;">
         <nav class="navbar navbar-inverse" style="padding:6px;">
         <div class="navbar-header">
@@ -28,7 +26,6 @@ if(mysqli_connect_errno())
       <li class="active"><a href="donate.php">Donations</a></li>
         </ul>
         </nav>
-
 <div class="container">
       <img src="picture5.jpg" alt="hand" style="width:100%;">
       <div class="content">
@@ -73,7 +70,6 @@ if(mysqli_connect_errno())
                         ?>
                     </select>
                     </div>
-
                         <label for="amount">
                             Amount</label>
                         <div class="input-group">
@@ -81,7 +77,6 @@ if(mysqli_connect_errno())
                                 required autofocus name="amount" required />
                             <span class="input-group-addon"><span class="glyphicon glyphicon-usd"></span></span>
                     </div>
-
                         <label for="country">
                             Country</label>
                         <div class="input-group">
